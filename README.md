@@ -17,6 +17,9 @@ The credentials file uses a different naming format than the CLI config file for
 ~/.aws/config
 
 
+$ export AWS_PROFILE=user1
+
+Setting the environment variable changes the default profile until the end of your shell session, or until you set the variable to a different value. You can make environment variables persistent across future sessions by putting them in your shell's startup script. For more information, see Environment Variables To Configure the AWS CLI.
 
 
 
